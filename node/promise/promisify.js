@@ -41,7 +41,7 @@ testP.then(res=>{
  
 setTimeout(() => {
     testP.abort('123');
-},3000) 
+},1000) 
 
 
 
